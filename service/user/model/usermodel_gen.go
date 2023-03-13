@@ -40,7 +40,7 @@ type (
 		table string
 	}
 
-	User struct {
+	1User struct {
 		Id         uint64    `db:"id"`
 		Name       string    `db:"name"`     // 用户姓名
 		Gender     uint64    `db:"gender"`   // 用户性别
